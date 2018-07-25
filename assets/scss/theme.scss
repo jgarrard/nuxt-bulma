@@ -1,0 +1,59 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set Bulma default colors
+$grey:         #888;
+$grey-light:   #aaa;
+
+$orange:       #eea170;
+$yellow:       #FFCE67;
+$green:        #56cc90;
+$cyan:         #6CC3D5;
+$blue:         #6D90D6;
+$red:          #e07f7d;
+$turquoise: #6abfb0;
+
+$danger: $orange;
+
+
+// Set additional brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+$text: darken($grey, 10);
+$subtitle-color: $grey;
+
+$size-1: 2.5rem;
+$size-2: 2rem;
+$size-3: 1.75rem;
+$size-4: 1.5rem;
+$size-5: 1.25rem;
+$size-6: 15px;
+$size-7: 0.75rem;
+
+$radius-small: 4px;
+$radius: 6px;
+$radius-large: 8px;
+
+// $navbar-background-color: $turquoise;
+// $navbar-item-color: rgba(#fff, 0.75);
+// $navbar-item-hover-color: #fff;
+// $navbar-item-active-color: #fff;
+// $navbar-item-hover-background-color: rgba(#000, 0.1);
+// $navbar-dropdown-arrow: $navbar-item-color;
